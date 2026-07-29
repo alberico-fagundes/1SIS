@@ -5,17 +5,39 @@
 
 ---
 
-## 🆔 PASSO 0: PREPARANDO O SEU CRACHÁ
+## 🧰 PASSO -1: A PREPARAÇÃO DO TERRENO (VSCODE, PASTA E GIT)
 
-Antes de começar a programar, o VSCode precisa saber quem você é para assinar os seus salvamentos (commits). Se você não fizer isso, ele vai dar erro.
+começando do absoluto zero, não existe mágica. Você precisa de uma pasta e do motor do Git rodando no seu computador.
 
-1. Abra o Terminal no VSCode (`Ctrl + '` ou `Menu Terminal > New Terminal`).
-2. Digite os dois comandos abaixo (substituindo pelo seu nome e e-mail do GitHub) e aperte Enter:
+**1. A Pasta do Projeto:**
+Crie uma pasta vazia na sua Área de Trabalho chamada `Faunadex`.
+Abra o **VSCode**, clique em **File > Open Folder** (Arquivo > Abrir Pasta) e selecione essa pasta `Faunadex`.
+
+**2. O Teste de Fogo (Você tem o Git?):**
+O Git **não** é o GitHub. O Git é o motor de salvar o jogo que fica instalado dentro do seu computador. (Não use o `conda` para instalar o Git, o Conda é focado em Python e Inteligência Artificial. Nós queremos a versão pura do Git).
+
+No VSCode, clique no ícone de **Source Control** (um desenho com três bolinhas conectadas no menu esquerdo).
+- Se aparecer um botão azul escrito **"Initialize Repository"**, ótimo! O Git já está instalado. Pule para o Passo 0.
+- Se aparecer uma mensagem dizendo que o Git não foi encontrado e um botão de **Download Git**, clique nele! Ele vai te levar para `git-scm.com`. Baixe, instale apertando *"Next, Next, Finish"* em tudo. Depois, **feche o VSCode e abra de novo** para ele reconhecer.
+
+---
+
+## 🆔 PASSO 0: LIGANDO A MÁQUINA DO TEMPO (O SEU CRACHÁ)
+
+Agora que a pasta está no VSCode e o Git está instalado, precisamos inicializar o "Save Game" e dizer ao computador quem é você.
+
+**1. Inicializando o Projeto:**
+Vá no menu esquerdo (**Source Control**) e clique no botão azul gigante **"Initialize Repository"**. Pronto, o Git começou a filmar a sua pasta.
+
+**2. O Crachá (Só se faz uma vez na vida):**
+O VSCode precisa saber quem você é para assinar os seus salvamentos.
+Abra o Terminal no VSCode (`Ctrl + '` ou `Menu Terminal > New Terminal`).
+Digite os dois comandos abaixo (substituindo pelo seu nome e e-mail do GitHub) e aperte Enter:
 ```bash
-git config  user.name "Seu Nome"
-git config  user.email "seu@email.com"
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
 ```
-*Pronto! Nunca mais você precisará fazer isso no seu computador.*
+*(Pode fechar o terminal. Nunca mais precisaremos dele hoje).*
 
 ---
 
@@ -25,7 +47,8 @@ O nosso jogo terá:
 - **Coluna Central:** A Mesa de Batalha (Grid de 3x3 = 9 espaços).
 - **Coluna Direita:** Mão do Inimigo (5 cartas).
 
-Parece difícil? Vamos dominar o **CSS Grid** e resolver isso em 4 passos. Crie um arquivo `index.html` e vamos começar.
+Parece difícil? Vamos dominar o **CSS Grid** e resolver isso em 4 passos. 
+Crie um arquivo chamado `index.html` na sua pasta e vamos começar.
 
 ---
 
@@ -34,6 +57,7 @@ Parece difícil? Vamos dominar o **CSS Grid** e resolver isso em 4 passos. Crie 
 A primeira coisa é montar a estrutura HTML sem beleza nenhuma, apenas caixas vazias.
 
 **1.** Copie o código abaixo no seu `index.html`:
+
 
 ```html
 <!DOCTYPE html>
@@ -82,7 +106,7 @@ A primeira coisa é montar a estrutura HTML sem beleza nenhuma, apenas caixas va
 Abra no navegador. Você verá as três divs empilhadas uma em cima da outra. Feio, não é? Vamos salvar e consertar isso.
 
 💾 **O SAVE GAME OBRIGATÓRIO (Usando o Mouse no VSCode):**
-1. Clique no ícone de **Source Control** (um desenho com três bolinhas conectadas) no menu esquerdo do VSCode.
+1. Vá no menu esquerdo do VSCode e clique no ícone de **Source Control**.
 2. Na caixinha de texto (Message), digite: `Passo 1: Esqueleto HTML e fundo escuro criados`.
 3. Clique no botão azul **Commit**. Se ele perguntar se deseja fazer "stage" em todas as mudanças, clique em **Yes (Sim)**.
 
