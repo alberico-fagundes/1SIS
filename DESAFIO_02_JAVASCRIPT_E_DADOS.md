@@ -1,10 +1,7 @@
 # 🚀 DESAFIO 02 - A ARENA FAUNADEX (A MAGIA DAS CARTAS E O MOTOR DE DADOS)
 ## Engenharia de Software ULTRA DIDÁTICA | Terça-Feira, 11 de Agosto (2 Aulas)
 
-> 🎓 **PROJETO INTEGRADOR (PBL):** O Faunadex não é apenas programação, é o elo prático entre 3 disciplinas do 2º SIS:
-> - 🖥️ **ITE:** Base estrutural (HTML/CSS), layout em Grid e pensamento computacional via JavaScript.
-> - 🧩 **Análise e Método de Sistemas:** Metodologia Ágil (Sprints/Baby Steps), e entregas contínuas (Git).
-> - 🗄️ **Introdução a Banco de Dados:** Modelagem de entidades e atributos das cartas preparando terreno para os dados persistentes.
+
 
 > **🎯 OBJETIVO EXTRAORDINÁRIO PARA HOJE:** Na aula passada montamos o "esqueleto" do nosso jogo. Como hoje temos duas aulas, vamos dar vida a ele! Primeiro, vamos colocar imagens reais e ensinar o jogo a ouvir nossos cliques (JavaScript básico). Depois, vamos apagar as cartas fixas do HTML e criar um Banco de Dados de Cartas em JSON para que o computador as desenhe sozinho!
 

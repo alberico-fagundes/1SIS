@@ -3,10 +3,6 @@
 
 > **🎯 OBJETIVO EXTRAORDINÁRIO:** Seu cérebro não aprende copiando um código gigante de uma vez. Ele aprende quebrando problemas grandes em pedacinhos minúsculos (Baby Steps). Vamos construir a Arena de Duelo do **Faunadex** (estilo Triple Triad do Final Fantasy 8) tijolo por tijolo. E a regra de ouro: A cada tijolo assentado, nós salvamos o jogo (Git Commit) usando a própria interface visual do VSCode, sem dor de cabeça no terminal!
 
-> 🎓 **PROJETO INTEGRADOR (PBL):** O Faunadex não é apenas programação, é o elo prático entre 3 disciplinas do 2º SIS:
-> - 🖥️ **ITE:** Base estrutural (HTML/CSS), layout em Grid e pensamento computacional via JavaScript.
-> - 🧩 **Análise e Método de Sistemas:** Metodologia Ágil (Sprints/Baby Steps), e entregas contínuas (Git).
-> - 🗄️ **Introdução a Banco de Dados:** Modelagem de entidades e atributos das cartas preparando terreno para os dados persistentes.
 
 ---
 
